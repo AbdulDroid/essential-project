@@ -1,0 +1,36 @@
+{
+  "name": "essential-kit-cli",
+  "version": "0.0.1",
+  "description": "A CLI based on NodeJs that helps you kick start your node project by abstracting manual package addition",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "essential",
+    "starter"
+  ],
+  "author": "Abdulrahman Abdulkarim",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.0",
+    "fs-path": "0.0.23",
+    "inquirer": "^5.0.1",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0",
+    "mongod": "^2.0.0",
+    "mongodb": "^3.0.1",
+    "preferences": "^1.0.2",
+    "redis": "^2.8.0",
+    "touch": "^3.1.0"
+  },
+  "bin":{
+    "ekit": "./index.js"
+  }
+}
+
